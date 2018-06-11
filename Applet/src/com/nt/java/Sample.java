@@ -7,7 +7,7 @@ public class Sample {
 		System.out.println("java guru");
 	
 		
-		
+	
 		Example e=new Example();
 		e.add();
 
