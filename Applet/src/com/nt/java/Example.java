@@ -2,10 +2,10 @@ package com.nt.java;
 
 public class Example {
 
-	public static void main(String[] args) {
-		
-		System.out.println("Good Morning");
-
+	public void add(){
+		int a=10;
+		int b=12;
+		System.out.println(a+b);
 	}
 
 }
