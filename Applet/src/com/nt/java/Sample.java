@@ -10,6 +10,7 @@ public class Sample {
 	
 		Example e=new Example();
 		e.add();
+		e.sub();
 
 	}
 
