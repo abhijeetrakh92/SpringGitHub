@@ -13,5 +13,8 @@ public class Example {
 		int b=10;
 		System.out.println(a+b);
 	}
+	public static void main(String[] args) {
+		
+	}
 
 }
