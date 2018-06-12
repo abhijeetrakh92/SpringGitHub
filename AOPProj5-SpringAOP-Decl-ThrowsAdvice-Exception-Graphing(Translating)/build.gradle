@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    
+    jcenter()
+}
+
+dependencies {
+  // https://mvnrepository.com/artifact/org.springframework/spring-context
+compile group: 'org.springframework', name: 'spring-context', version: '5.0.2.RELEASE'
+
+}
+
