@@ -9,6 +9,7 @@ public class CalculatorThrowsAdvice implements ThrowsAdvice{
 	
 	public void afterThrowing(IllegalArgumentException ie) throws InternalProblemOccured {
 		
+		System.out.println("afterThrowing method CalculatorThrowsAdvice");
 		throw new InternalProblemOccured(ie.getMessage());
 		
 	}
