@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<!-- configure target class -->
+<bean id="iac" class="com.nt.beans.IntrAmtCalculatorimpl" />
+
+<!-- Configure Aspect advice class -->
+<bean id="pmAdvice" class="com.nt.aspect.MyPerformanceAdvice" />
+<bean id="logAdvice" class="com.nt.aspect.LogAroundAdvice"/>
+<bean id="cacheAdvice" class="com.nt.aspect.CacheAdvice"/>
+
+<!-- Configure ProxyFactory beans to get ProxyFactory object -->
+<bean id="pfb" class="org.springframework.aop.framework.ProxyFactoryBean">
+<property name="target" ref="iac"/>
+<property name="interceptorNames">
+<list>
+<value>cacheAdvice</value>
+<value>pmAdvice</value>
+<value>logAdvice</value>
+</list>
+</property>
+<!-- 
+<property name="proxyInterfaces">
+<list>
+<value>com.nt.beans.IntrAmtCalculatorimpl</value>
+</list> 
+</property>
+-->
+</bean>
+
+
+</beans>

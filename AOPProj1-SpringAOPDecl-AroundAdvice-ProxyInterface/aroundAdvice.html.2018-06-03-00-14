@@ -1,0 +1,917 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jun 03 00:14:00 IST 2018<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>359</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'pfb'</td>
+</tr>
+
+<tr>
+<td>362</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.context.support.FileSystemXmlApplicationContext category">org.springframework.context.support.FileSystemXmlApplicationContext</td>
+<td title="Message">Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@11c1ea0]</td>
+</tr>
+
+<tr>
+<td>362</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'lifecycleProcessor'</td>
+</tr>
+
+<tr>
+<td>364</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.core.env.PropertySourcesPropertyResolver category">org.springframework.core.env.PropertySourcesPropertyResolver</td>
+<td title="Message">Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]</td>
+</tr>
+
+<tr>
+<td>364</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.core.env.PropertySourcesPropertyResolver category">org.springframework.core.env.PropertySourcesPropertyResolver</td>
+<td title="Message">Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]</td>
+</tr>
+
+<tr>
+<td>365</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.core.env.PropertySourcesPropertyResolver category">org.springframework.core.env.PropertySourcesPropertyResolver</td>
+<td title="Message">Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]</td>
+</tr>
+
+<tr>
+<td>366</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'pfb'</td>
+</tr>
+
+<tr>
+<td>366</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'cacheAdvice'</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.ProxyFactoryBean category">org.springframework.aop.framework.ProxyFactoryBean</td>
+<td title="Message">Advice has changed; recaching singleton instance</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'pmAdvice'</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.ProxyFactoryBean category">org.springframework.aop.framework.ProxyFactoryBean</td>
+<td title="Message">Advice has changed; recaching singleton instance</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'logAdvice'</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.ProxyFactoryBean category">org.springframework.aop.framework.ProxyFactoryBean</td>
+<td title="Message">Advice has changed; recaching singleton instance</td>
+</tr>
+
+<tr>
+<td>376</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.nt.beans.IntrAmtCalculatorimpl@46bcd4]</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimisations to advised method: public float com.nt.beans.IntrAmtCalculatorimpl.CalcSimpleintrAmt(float,float,float)</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimisations to advised method: public float com.nt.beans.IntrAmtCalculatorimpl.CalcCompoundintrAmt(float,float,float)</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Found finalize() method - using NO_OVERRIDE</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Found 'hashCode' method: public native int java.lang.Object.hashCode()</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()</td>
+</tr>
+
+<tr>
+<td>469</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()</td>
+</tr>
+
+<tr>
+<td>501</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="com.nt.aspect.LogAroundAdvice category">com.nt.aspect.LogAroundAdvice</td>
+<td title="Message">CalcSimpleintrAmt with args [49000.0, 2.0, 12.0]</td>
+</tr>
+
+<tr>
+<td>532</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="com.nt.aspect.LogAroundAdvice category">com.nt.aspect.LogAroundAdvice</td>
+<td title="Message">CalcSimpleintrAmt with args [49000.0, 1.5, 12.0]</td>
+</tr>
+
+<tr>
+<td>532</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="com.nt.aspect.LogAroundAdvice category">com.nt.aspect.LogAroundAdvice</td>
+<td title="Message">CalcCompoundintrAmt with args [100000.0, 2.0, 12.0]</td>
+</tr>
+
+<tr>
+<td>533</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="com.nt.aspect.LogAroundAdvice category">com.nt.aspect.LogAroundAdvice</td>
+<td title="Message">CalcCompoundintrAmt with args [100000.0, 2.0, 12.0]</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jun 03 00:14:59 IST 2018<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>308</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'logAdvice' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>309</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'logAdvice'</td>
+</tr>
+
+<tr>
+<td>310</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating shared instance of singleton bean 'cacheAdvice'</td>
+</tr>
+
+<tr>
+<td>310</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating instance of bean 'cacheAdvice'</td>
+</tr>
+
+<tr>
+<td>310</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'cacheAdvice' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>310</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'cacheAdvice'</td>
+</tr>
+
+<tr>
+<td>310</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating shared instance of singleton bean 'pfb'</td>
+</tr>
+
+<tr>
+<td>310</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Creating instance of bean 'pfb'</td>
+</tr>
+
+<tr>
+<td>319</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Eagerly caching bean 'pfb' to allow for resolving potential circular references</td>
+</tr>
+
+<tr>
+<td>320</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'iac'</td>
+</tr>
+
+<tr>
+<td>365</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Finished creating instance of bean 'pfb'</td>
+</tr>
+
+<tr>
+<td>366</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.context.support.FileSystemXmlApplicationContext category">org.springframework.context.support.FileSystemXmlApplicationContext</td>
+<td title="Message">Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@11c1ea0]</td>
+</tr>
+
+<tr>
+<td>367</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'lifecycleProcessor'</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.core.env.PropertySourcesPropertyResolver category">org.springframework.core.env.PropertySourcesPropertyResolver</td>
+<td title="Message">Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.core.env.PropertySourcesPropertyResolver category">org.springframework.core.env.PropertySourcesPropertyResolver</td>
+<td title="Message">Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]</td>
+</tr>
+
+<tr>
+<td>369</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.core.env.PropertySourcesPropertyResolver category">org.springframework.core.env.PropertySourcesPropertyResolver</td>
+<td title="Message">Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'pfb'</td>
+</tr>
+
+<tr>
+<td>371</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'cacheAdvice'</td>
+</tr>
+
+<tr>
+<td>374</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.ProxyFactoryBean category">org.springframework.aop.framework.ProxyFactoryBean</td>
+<td title="Message">Advice has changed; recaching singleton instance</td>
+</tr>
+
+<tr>
+<td>374</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'pmAdvice'</td>
+</tr>
+
+<tr>
+<td>374</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.ProxyFactoryBean category">org.springframework.aop.framework.ProxyFactoryBean</td>
+<td title="Message">Advice has changed; recaching singleton instance</td>
+</tr>
+
+<tr>
+<td>374</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.beans.factory.support.DefaultListableBeanFactory category">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td title="Message">Returning cached instance of singleton bean 'logAdvice'</td>
+</tr>
+
+<tr>
+<td>374</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.ProxyFactoryBean category">org.springframework.aop.framework.ProxyFactoryBean</td>
+<td title="Message">Advice has changed; recaching singleton instance</td>
+</tr>
+
+<tr>
+<td>381</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Creating CGLIB proxy: target source is SingletonTargetSource for target object [com.nt.beans.IntrAmtCalculatorimpl@46bcd4]</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimisations to advised method: public float com.nt.beans.IntrAmtCalculatorimpl.CalcSimpleintrAmt(float,float,float)</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimisations to advised method: public float com.nt.beans.IntrAmtCalculatorimpl.CalcCompoundintrAmt(float,float,float)</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Found finalize() method - using NO_OVERRIDE</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimisations to advised method: public java.lang.String java.lang.Object.toString()</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Found 'hashCode' method: public native int java.lang.Object.hashCode()</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Unable to apply any optimisations to advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()</td>
+</tr>
+
+<tr>
+<td>470</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()</td>
+</tr>
+
+<tr>
+<td>471</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.springframework.aop.framework.CglibAopProxy category">org.springframework.aop.framework.CglibAopProxy</td>
+<td title="Message">Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()</td>
+</tr>
+
+<tr>
+<td>508</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.nt.aspect.LogAroundAdvice category">com.nt.aspect.LogAroundAdvice</td>
+<td title="Message">CalcSimpleintrAmt with args [49000.0, 2.0, 12.0]</td>
+</tr>
+
+<tr>
+<td>538</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.nt.aspect.LogAroundAdvice category">com.nt.aspect.LogAroundAdvice</td>
+<td title="Message">CalcSimpleintrAmt with args [49000.0, 1.5, 12.0]</td>
+</tr>
+
+<tr>
+<td>538</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.nt.aspect.LogAroundAdvice category">com.nt.aspect.LogAroundAdvice</td>
+<td title="Message">CalcCompoundintrAmt with args [100000.0, 2.0, 12.0]</td>
+</tr>
+
+<tr>
+<td>538</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="com.nt.aspect.LogAroundAdvice category">com.nt.aspect.LogAroundAdvice</td>
+<td title="Message">CalcCompoundintrAmt with args [100000.0, 2.0, 12.0]</td>
+</tr>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Sun Jun 03 00:16:06 IST 2018<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
