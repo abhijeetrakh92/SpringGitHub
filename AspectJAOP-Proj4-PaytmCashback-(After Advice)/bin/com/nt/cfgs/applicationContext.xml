@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+<!-- configure target class -->
+<bean id="pay" class="com.nt.service.PaytmCashback"/>
+
+<!-- Configure advice class -->
+<bean id="payAdvice" class="com.nt.advice.PaytmCashbackAdvice"/>
+
+<!--  -->
+<aop:config>
+<aop:pointcut  id="ptc" expression="execution(float com.nt.service.PaytmCashback.purchase(..))"/>
+<aop:aspect id="payAspect" ref="payAdvice">
+<aop:after-returning method="cashback" pointcut-ref="ptc" returning="bill"/>
+</aop:aspect>
+</aop:config>
+
+</beans>
