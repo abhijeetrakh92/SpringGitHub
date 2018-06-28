@@ -1,0 +1,30 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+
+
+// https://mvnrepository.com/artifact/org.springframework/spring-context
+compile group: 'org.springframework', name: 'spring-context', version: '4.3.16.RELEASE'
+
+	
+	// https://mvnrepository.com/artifact/org.springframework/spring-jdbc
+compile group: 'org.springframework', name: 'spring-jdbc', version: '4.3.17.RELEASE'
+
+// https://mvnrepository.com/artifact/com.zaxxer/HikariCP
+compile group: 'com.zaxxer', name: 'HikariCP', version: '3.2.0'
+
+
+// https://mvnrepository.com/artifact/org.springframework/spring-aop
+compile group: 'org.springframework', name: 'spring-aop', version: '4.3.17.RELEASE'
+
+
+compile files ('C:/Oracle/Middleware/WLServer1/wlserver_10.3/server/lib/ojdbc6.jar')
+
+	
+}
+
